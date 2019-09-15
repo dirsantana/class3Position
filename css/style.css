@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+header,
+section,
+footer {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+section {
+    margin: 0 auto;
+    width: 950px;
+    overflow: hidden;
+}
+
+section article {
+    border: 2px solid blue;
+}
+
+section div {
+    border: 2px solid red;
+    float: left;
+    padding: 50px;
+    margin: 2.5px;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
